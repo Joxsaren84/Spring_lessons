@@ -12,4 +12,8 @@
           <constructor-arg value="Oleg"/>
     </bean>
 
+    <bean id="musicBean"
+          class="ru.joxaren.PopMusic">
+    </bean>
+
 </beans>
