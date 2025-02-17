@@ -16,4 +16,10 @@
           class="ru.joxaren.PopMusic">
     </bean>
 
+    <bean id="musicPlayer"
+    class="ru.joxaren.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+
+    </bean>
+
 </beans>
