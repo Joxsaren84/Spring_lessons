@@ -1,16 +1,42 @@
 package ru.joxaren;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MusicPlayer {
 
-    private Music music;
+    //private Music music;
+    private String name;
+    private int volume;
 
-    public MusicPlayer(Music music){
-        this.music = music;
-    }
+    private List<Music> playList;
+
+    public MusicPlayer(){}
 
     public void playMusic(){
-        System.out.println("Playing: " + music.getSong());
+        System.out.println("Player name: " + name);
+        System.out.println("Volume: " + volume);
+
+        for (Music music : playList){
+            System.out.println("Playing: " + music.getSong());
+        }
     }
 
+    /*
+    public void setMusic(Music music) {
+        this.music = music;
+    }
+    */
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setVolume(int volume) {
+        this.volume = volume;
+    }
+
+    public void setPlayList(List<Music> playList) {
+        this.playList = playList;
+    }
 }
