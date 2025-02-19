@@ -37,7 +37,7 @@
         </constructor-arg>
     </bean>
 
-    <bean id="musicPlayer"
+    <bean id="musicPlayer" scope="prototype"
     class="ru.joxaren.MusicPlayer">
         <property name="name" value="${musicPlayer.name}"/>
         <property name="volume" value="${musicPlayer.volume}"/>
