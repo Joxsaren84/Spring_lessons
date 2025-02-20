@@ -14,8 +14,6 @@ public class TestSpring {
         player1.setVolume(25);
         player1.playMusic();
 
-
-
         MusicPlayer player2 = context.getBean("musicPlayer", MusicPlayer.class);
         player2.playMusic();
 

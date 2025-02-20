@@ -19,7 +19,10 @@
     </bean>
 
     <bean id="classicalMusicBean"
-          class="ru.joxaren.ClassicalMusic">
+          class="ru.joxaren.ClassicalMusic"
+          init-method="doMyInit"
+          destroy-method="doMyDestroy"
+          factory-method="getClassicalMusic">
     </bean>
 
     <bean id="rockMusicBean"
@@ -38,7 +41,10 @@
     </bean>
 
     <bean id="musicPlayer" scope="prototype"
-    class="ru.joxaren.MusicPlayer">
+        class="ru.joxaren.MusicPlayer"
+          init-method="MyInit"
+          destroy-method="MyDestroy"
+    >
         <property name="name" value="${musicPlayer.name}"/>
         <property name="volume" value="${musicPlayer.volume}"/>
         <property name="playList" ref="playList"/>

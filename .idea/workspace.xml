@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5b1b162-b056-4f4c-aed5-3c52139b25fd" name="Changes" comment="example 2 Dependency Injection">
+    <list default="true" id="d5b1b162-b056-4f4c-aed5-3c52139b25fd" name="Changes" comment="example scope singleton &amp; prototype">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resourses/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourses/applicationContext.xml" afterDir="false" />
     </list>
@@ -84,7 +86,9 @@
       <workItem from="1739756086096" duration="1152000" />
       <workItem from="1739841472110" duration="4971000" />
       <workItem from="1739854040982" duration="110000" />
-      <workItem from="1739928962054" duration="808000" />
+      <workItem from="1739928962054" duration="1004000" />
+      <workItem from="1739930017141" duration="26000" />
+      <workItem from="1740017582144" duration="1478000" />
     </task>
     <task id="LOCAL-00001" summary="First spring application with xml">
       <created>1739420303963</created>
@@ -114,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739846907128</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="example scope singleton &amp; prototype">
+      <created>1739929937936</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739929937936</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +148,7 @@
     <MESSAGE value="music player with Ioc" />
     <MESSAGE value="example 1 Dependency Injection" />
     <MESSAGE value="example 2 Dependency Injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="example 2 Dependency Injection" />
+    <MESSAGE value="example scope singleton &amp; prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="example scope singleton &amp; prototype" />
   </component>
 </project>
