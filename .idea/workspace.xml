@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5b1b162-b056-4f4c-aed5-3c52139b25fd" name="Changes" comment="example Beans with annotation @component">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/MusicPlayer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/TestSpring2.java" afterDir="false" />
+    <list default="true" id="d5b1b162-b056-4f4c-aed5-3c52139b25fd" name="Changes" comment="example di with @Autowired">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/MusicPlayer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/MusicPlayer2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,9 @@
       <workItem from="1740025004717" duration="68000" />
       <workItem from="1740108398397" duration="1332000" />
       <workItem from="1740112198945" duration="195000" />
-      <workItem from="1740355466901" duration="2286000" />
+      <workItem from="1740355466901" duration="2524000" />
+      <workItem from="1740362833801" duration="12000" />
+      <workItem from="1740446594204" duration="1287000" />
     </task>
     <task id="LOCAL-00001" summary="First spring application with xml">
       <created>1739420303963</created>
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740112316115</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="example di with @Autowired">
+      <created>1740357993049</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740357993049</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +189,7 @@
     <MESSAGE value="example scope singleton &amp; prototype" />
     <MESSAGE value="example Bean Lifecycle Init, Destroy &amp; Factory methods" />
     <MESSAGE value="example Beans with annotation @component" />
-    <option name="LAST_COMMIT_MESSAGE" value="example Beans with annotation @component" />
+    <MESSAGE value="example di with @Autowired" />
+    <option name="LAST_COMMIT_MESSAGE" value="example di with @Autowired" />
   </component>
 </project>
