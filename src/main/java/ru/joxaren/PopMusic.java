@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
-@Component("popMusicBean")
-@Scope("prototype")
+
+@Component
 public class PopMusic implements Music{
 
     @Override

@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5b1b162-b056-4f4c-aed5-3c52139b25fd" name="Changes" comment="example di with @Qualifier">
+    <list default="true" id="d5b1b162-b056-4f4c-aed5-3c52139b25fd" name="Changes" comment="example with annotation&#10;@Value, @Scope, @PostConstruct, @PreDestroy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/TestSpring3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/Computer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/MusicPlayer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/MusicPlayer2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/PopMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/PopMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joxaren/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joxaren/RockMusic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.TestSpring2">
+  <component name="RunManager" selected="Application.TestSpring3">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.joxaren.TestSpring" />
       <module name="Spring_lessons" />
@@ -76,8 +80,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSpring3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.joxaren.TestSpring3" />
+      <module name="Spring_lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.joxaren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSpring3" />
         <item itemvalue="Application.TestSpring2" />
         <item itemvalue="Application.TestSpring" />
       </list>
@@ -108,7 +126,8 @@
       <workItem from="1740355466901" duration="2524000" />
       <workItem from="1740362833801" duration="12000" />
       <workItem from="1740446594204" duration="1998000" />
-      <workItem from="1740534589970" duration="2447000" />
+      <workItem from="1740534589970" duration="2594000" />
+      <workItem from="1740537925529" duration="3084000" />
     </task>
     <task id="LOCAL-00001" summary="First spring application with xml">
       <created>1739420303963</created>
@@ -173,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740448142395</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="example with annotation&#10;@Value, @Scope, @PostConstruct, @PreDestroy">
+      <created>1740537300770</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740537300770</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +227,7 @@
     <MESSAGE value="example Beans with annotation @component" />
     <MESSAGE value="example di with @Autowired" />
     <MESSAGE value="example di with @Qualifier" />
-    <option name="LAST_COMMIT_MESSAGE" value="example di with @Qualifier" />
+    <MESSAGE value="example with annotation&#10;@Value, @Scope, @PostConstruct, @PreDestroy" />
+    <option name="LAST_COMMIT_MESSAGE" value="example with annotation&#10;@Value, @Scope, @PostConstruct, @PreDestroy" />
   </component>
 </project>
